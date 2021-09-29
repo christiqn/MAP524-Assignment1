@@ -48,25 +48,25 @@
             <Button
                 android:id="@+id/buttonOne"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/one" />
 
             <Button
                 android:id="@+id/buttonTwo"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/two" />
 
             <Button
                 android:id="@+id/buttonThree"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/three" />
 
             <Button
                 android:id="@+id/buttonAdd"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/add" />
         </LinearLayout>
 
@@ -80,25 +80,25 @@
             <Button
                 android:id="@+id/buttonFour"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/four" />
 
             <Button
                 android:id="@+id/buttonFive"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/five" />
 
             <Button
                 android:id="@+id/buttonSix"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/six" />
 
             <Button
                 android:id="@+id/buttonSubtract"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/subtract" />
         </LinearLayout>
 
@@ -112,25 +112,25 @@
             <Button
                 android:id="@+id/buttonSeven"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/seven" />
 
             <Button
                 android:id="@+id/buttonEight"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/eight" />
 
             <Button
                 android:id="@+id/buttonNine"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/nine" />
 
             <Button
                 android:id="@+id/buttonMultiply"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/multiply" />
         </LinearLayout>
 
@@ -150,7 +150,7 @@
             <Button
                 android:id="@+id/buttonZero"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/zero" />
 
             <Button
@@ -162,7 +162,7 @@
             <Button
                 android:id="@+id/buttonDivide"
                 style="@style/button"
-                android:onClick="operClick"
+                android:onClick="operatorClick"
                 android:text="@string/divide" />
         </LinearLayout>
 
