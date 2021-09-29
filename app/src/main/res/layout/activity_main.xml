@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/app_name"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:background="@color/SandyBrown"
+        android:gravity="center_vertical|start" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="@string/display"
+        android:textColor="@color/DarkSlateGray"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/buttonsPanel"
+        android:layout_width="350sp"
+        android:layout_height="252sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rowOne"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15sp">
+
+            <Button
+                android:id="@+id/buttonOne"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/one" />
+
+            <Button
+                android:id="@+id/buttonTwo"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/two" />
+
+            <Button
+                android:id="@+id/buttonThree"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/three" />
+
+            <Button
+                android:id="@+id/buttonAdd"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowTwo"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15sp">
+
+            <Button
+                android:id="@+id/buttonFour"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/four" />
+
+            <Button
+                android:id="@+id/buttonFive"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/five" />
+
+            <Button
+                android:id="@+id/buttonSix"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/six" />
+
+            <Button
+                android:id="@+id/buttonSubtract"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/subtract" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowThree"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15sp">
+
+            <Button
+                android:id="@+id/buttonSeven"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/seven" />
+
+            <Button
+                android:id="@+id/buttonEight"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/eight" />
+
+            <Button
+                android:id="@+id/buttonNine"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/nine" />
+
+            <Button
+                android:id="@+id/buttonMultiply"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/multiply" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowFour"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15sp">
+
+            <Button
+                android:id="@+id/buttonClear"
+                style="@style/button"
+                android:onClick="cancelClick"
+                android:text="@string/clear" />
+
+            <Button
+                android:id="@+id/buttonZero"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/zero" />
+
+            <Button
+                android:id="@+id/buttonEquals"
+                style="@style/button"
+                android:onClick="equalsClick"
+                android:text="@string/equals" />
+
+            <Button
+                android:id="@+id/buttonDivide"
+                style="@style/button"
+                android:onClick="operClick"
+                android:text="@string/divide" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <ToggleButton-->
+<!--        android:id="@+id/buttonAdvance"-->
+<!--        android:layout_width="250sp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@color/purple_500"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/advanceButton"-->
+<!--        android:textOff="ADVANCE - WITH HISTORY"-->
+<!--        android:textOn="STANDARD - NO HISTORY" />-->
+
+    <Button
+        android:id="@+id/buttonAdvance"
+        android:layout_width="250sp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:onClick="advanceClick"
+        android:text="@string/advanceButton" />
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="350sp"
+        android:layout_height="175sp"
+        android:layout_marginTop="30sp"
+        android:text="@string/history"
+        android:textColor="@color/DarkSlateGray"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+</LinearLayout>
